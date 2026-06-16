@@ -41,13 +41,13 @@ Used for software development for Wisconsin Robotics.
 - Set the repository as a safe directory for Git:
   
   ```bash
-  git config --global --add safe.directory /root/<repo-name>
+  git config --global --add safe.directory /root/workspace/<repo-name>
   ```
   
 - For example:
   
   ```bash
-  git config --global --add safe.directory /root/WRoverSoftware_26-27
+  git config --global --add safe.directory /root/workspace/WRoverSoftware_26-27
   ```
   
 ## Build

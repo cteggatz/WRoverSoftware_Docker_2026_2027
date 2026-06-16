@@ -52,7 +52,7 @@ Used for software development for Wisconsin Robotics.
   
 ## Build
 
-- Run in a terminal:
+- Open a terminal in the **current directory** and enter:
 
   ```bash
   docker build -t wrover .
@@ -64,7 +64,8 @@ Used for software development for Wisconsin Robotics.
   
   Rebuild only when `Dockerfile` or `requirements.txt` changes.
   
-- To run, open a terminal in the **current** directory and enter:
+- To run, open a terminal in the **current directory** and enter:
+
   ```bash
   make run
   ```

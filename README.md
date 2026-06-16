@@ -52,7 +52,7 @@ Used for software development for Wisconsin Robotics.
   
 ## Build
 
-- Open a terminal in the **current directory** and enter:
+- Open a terminal in **this directory** and enter:
 
   ```bash
   docker build -t wrover .
@@ -64,7 +64,7 @@ Used for software development for Wisconsin Robotics.
   
   Rebuild only when `Dockerfile` or `requirements.txt` changes.
   
-- To run, open a terminal in the **current directory** and enter:
+- To run, open a terminal in **this directory** and enter:
 
   ```bash
   make run
@@ -97,8 +97,6 @@ Used for software development for Wisconsin Robotics.
 - Add the python package(s) in `requirements.txt`, one package per line.
   
   > For consistency, it's best to specify the package version, for example, `depthai==3.1.0`.
-  >
-  > Use `pip show <package-name>` to find package version.
   
 - After adding the package(s), rebuild the Docker container:
   

@@ -57,6 +57,8 @@ Used for software development for Wisconsin Robotics.
   ```bash
   docker build -t wrover .
   ```
+  
+- If running into permission issues, see [this post](https://stackoverflow.com/questions/48957195/how-to-fix-docker-permission-denied).
 
 ## Run
 

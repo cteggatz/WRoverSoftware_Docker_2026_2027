@@ -79,12 +79,12 @@ Used for software development for Wisconsin Robotics.
 ### Visual Studio Code setup
 
 - Download [VS Code](https://code.visualstudio.com/download).
+
+- Run `code .` in the workspace.
   
 - Install the Dev Containers VS Code extension.
   
   ![Dev Containers extension](images/1.png)
-  
-- Run `code .` in the workspace.
   
 - Run the container in a separate terminal and attach the container through the extension by clicking the right arrow next to the `wrover` container under `Dev Containers`.
   
